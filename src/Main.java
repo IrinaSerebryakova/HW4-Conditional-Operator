@@ -87,8 +87,6 @@ public class Main {
              System.out.print("Количество введено некорректно.");
          }
 
-
-
         // Task 7
         System.out.println("Введите 3 числа: ");
         int one = scan.nextInt();
