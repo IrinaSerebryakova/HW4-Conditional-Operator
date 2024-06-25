@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
       Scanner scan = new Scanner(System.in);
 
+
        // Task 1
       System.out.println("Введите возраст человека:");
       int age = scan.nextInt();
@@ -12,6 +13,7 @@ public class Main {
       }else{
           System.out.println(String.format("Если возраст человека равен %d, то он не достиг совершеннолетия, нужно немного подождать.", age));
       }
+
 
         // Task 2
         System.out.println("Введите температуру воздуха на улице:");
@@ -22,6 +24,7 @@ public class Main {
             System.out.println(String.format("На улице %d градусов, можно идти без шапки.", temp));
         }
 
+
         // Task 3
         System.out.println("Введите скорость автомобиля:");
         int speed = scan.nextInt();
@@ -30,6 +33,7 @@ public class Main {
         }else{
             System.out.println(String.format("Если скорость %d, то можно ездить спокойно.", speed));
         }
+
 
         // Task 4
         System.out.println("Введите возраст человека:");
@@ -53,6 +57,7 @@ public class Main {
              System.out.print("Возраст введён некорректно.");
             }
 
+
         // Task 5
         System.out.println("Введите возраст ребёнка:");
         int ageOfKid = scan.nextInt();
@@ -68,6 +73,7 @@ public class Main {
         }else {
             System.out.print("Возраст введён некорректно.");
         }
+
 
         // Task 6
        int capacityOfTrainCarriage = 102;
@@ -85,6 +91,7 @@ public class Main {
          }else{
              System.out.print("Количество введено некорректно.");
          }
+
 
         // Task 7
         System.out.println("Введите 3 числа: ");
