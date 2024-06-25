@@ -70,7 +70,6 @@ public class Main {
         }
 
         // Task 6
-
        int capacityOfTrainCarriage = 102;
        int countOfPlacesForSitting = 60;
        System.out.println("Введите количество человек в вагоне:");
@@ -86,8 +85,6 @@ public class Main {
          }else{
              System.out.print("Количество введено некорректно.");
          }
-
-
 
         // Task 7
         System.out.println("Введите 3 числа: ");
